@@ -1,0 +1,16 @@
+print "Enter the number of Fibonacci terms to generate:"
+n=input
+if n<=0:
+    print "Please enter a positive integer greater than 0."
+else:
+    print "Generating sequence..."
+    a=0
+    b=1
+    count=0
+    while count<n:
+        print a
+        temp=a+b
+        a=b
+        b=temp
+        count=count+1
+print "Done!"
