@@ -1,0 +1,21 @@
+x=10
+y=5
+sum=x+y
+print "The sum of 10 and 5 is:"
+print sum
+is_valid=true
+if sum==15&&is_valid:
+    print "Math and Logic are working perfectly."
+else:
+    print "Something went wrong!"
+
+count=3
+while count>0:
+    print count
+    count=count-1
+print "Enter your age:"
+age=input
+if age>=18:
+    print "You are officially an adult!"
+else:
+    print "You are still a minor."
